@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/12/02 11:20:11.000.019,=C:\MyData\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2020/12/02 11:20:19.000.003,=C:\MyData\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2021/01/04 08:05:08.216,=C:\MyData\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/01/04 08:05:43.403,P:\Animasi SPRITE di DELPHI FMX\Unit1.pas=C:\MyData\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/01/04 08:05:43.403,P:\Animasi SPRITE di DELPHI FMX\Unit1.fmx=C:\MyData\Projects\Unit1.fmx</Transaction>
+    <Transaction>2021/01/04 08:05:46.903,P:\Animasi SPRITE di DELPHI FMX\Project1.dproj=C:\MyData\Projects\Project1.dproj</Transaction>
+  </Transactions>  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>
