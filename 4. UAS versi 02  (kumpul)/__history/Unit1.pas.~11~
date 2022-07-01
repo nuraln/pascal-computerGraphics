@@ -1,0 +1,137 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.jpeg, Vcl.ExtCtrls,
+  Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Panel1: TPanel;
+    Timer1: TTimer;
+    Image1: TImage;
+    Shape2: TShape;
+    Shape1: TShape;
+    Shape3: TShape;
+    Shape4: TShape;
+    Shape5: TShape;
+    Shape6: TShape;
+    Shape7: TShape;
+    Shape8: TShape;
+    Shape9: TShape;
+    Shape10: TShape;
+    Shape11: TShape;
+    Shape12: TShape;
+    Shape13: TShape;
+    Shape14: TShape;
+    Shape15: TShape;
+    Shape16: TShape;
+    Shape17: TShape;
+    Shape18: TShape;
+    Shape19: TShape;
+    Shape20: TShape;
+    Shape21: TShape;
+    procedure Timer1Timer(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  timer1.enabled := True;
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+   timer1.enabled := False;
+end;
+
+procedure TForm1.Timer1Timer(Sender: TObject);
+begin
+  shape1.left := shape1.left + 10;
+  if shape1.left > 68  then
+  shape1.left := 55;
+
+  shape2.left := shape2.left + 5;
+  if shape2.left > 68 then
+  shape2.left := 40;
+
+  shape3.left := shape3.left + 25;
+  if shape3.left > 168 then
+  shape3.left := 80;
+
+  shape4.left := shape4.left + 64;
+  if shape4.left > 20  then
+  shape4.left := 55;
+
+  shape5.left := shape5.left + 3;
+  if shape5.left > 90 then
+  shape5.left := 100;
+
+  shape6.left := shape6.left + 25;
+  if shape6.left > 168 then
+  shape6.left := 80;
+
+  shape7.left := shape7.left + 10;
+  if shape7.left > 68  then
+  shape7.left := 55;
+
+  shape8.left := shape8.left + 5;
+  if shape8.left > 68 then
+  shape8.left := 40;
+
+  shape9.left := shape9.left + 25;
+  if shape9.left > 168 then
+  shape9.left := 80;
+
+  shape10.left := shape10.left + 64;
+  if shape10.left > 20  then
+  shape10.left := 55;
+
+  shape11.left := shape11.left + 3;
+  if shape11.left > 90 then
+  shape11.left := 100;
+
+  shape12.left := shape12.left + 25;
+  if shape12.left > 168 then
+  shape12.left := 80;
+
+  shape13.left := shape13.left + 510;
+  if shape13.left > 288  then
+  shape13.left := 555;
+
+  shape14.left := shape14.left + 655;
+  if shape14.left > 68 then
+  shape14.left := 790;
+
+  shape15.left := shape15.left + 255;
+  if shape15.left > 168 then
+  shape15.left := 280;
+
+  shape16.left := shape16.left + 164;
+  if shape16.left > 20  then
+  shape16.left := 55;
+
+  shape17.left := shape17.left + 603;
+  if shape17.left > 90 then
+  shape17.left := 100;
+
+  shape18.left := shape18.left + 625;
+  if shape18.left > 168 then
+  shape18.left := 580;
+end;
+
+end.

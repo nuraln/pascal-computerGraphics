@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/04/22 07:24:19.000.002,=C:\Users\ACER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/30 11:49:02.000.810,=C:\Users\ACER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/30 11:57:46.000.116,D:\Materi Kuliah\Semester 4\Grafika Komputer\UAS\Unit1.dfm=C:\Users\ACER\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/06/30 11:57:46.000.116,D:\Materi Kuliah\Semester 4\Grafika Komputer\UAS\Unit1.pas=C:\Users\ACER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/30 11:58:07.000.416,D:\Materi Kuliah\Semester 4\Grafika Komputer\UAS\Project1.dproj=C:\Users\ACER\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

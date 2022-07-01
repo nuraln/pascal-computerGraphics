@@ -1,0 +1,169 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.jpeg, Vcl.ExtCtrls,
+  Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Panel1: TPanel;
+    Timer1: TTimer;
+    Image1: TImage;
+    Shape2: TShape;
+    Shape1: TShape;
+    Shape3: TShape;
+    Shape4: TShape;
+    Shape5: TShape;
+    Shape6: TShape;
+    Shape7: TShape;
+    Shape8: TShape;
+    Shape9: TShape;
+    Shape10: TShape;
+    Shape11: TShape;
+    Shape12: TShape;
+    Shape13: TShape;
+    Shape14: TShape;
+    Shape15: TShape;
+    Shape16: TShape;
+    Shape17: TShape;
+    Shape18: TShape;
+    Shape19: TShape;
+    Shape20: TShape;
+    Shape21: TShape;
+    Shape22: TShape;
+    Shape23: TShape;
+    Shape24: TShape;
+    Shape25: TShape;
+    procedure Timer1Timer(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+  a, b, c, d, e, f, g : integer;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  timer1.enabled := True;
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+   timer1.enabled := False;
+end;
+
+procedure TForm1.Timer1Timer(Sender: TObject);
+begin
+
+  a := 2;
+  b:= 1;
+  c := 1;
+  d:= 1;
+  e := 0;
+  f := 1;
+  g := 1;
+
+
+  shape1.left := shape1.left + 10;
+  if shape1.left > 68  then
+  shape1.left := 55;
+
+  shape2.left := shape2.left + 5;
+  if shape2.left > 68 then
+  shape2.left := 40;
+
+  shape3.left := shape3.left + 25;
+  if shape3.left > 168 then
+  shape3.left := 80;
+
+  shape4.left := shape4.left + 64;
+  if shape4.left > 20  then
+  shape4.left := 55;
+
+  shape5.left := shape5.left + 3;
+  if shape5.left > 90 then
+  shape5.left := 100;
+
+  shape6.left := shape6.left + 25;
+  if shape6.left > 168 then
+  shape6.left := 80;
+
+  shape7.left := shape7.left + 10;
+  if shape7.left > 68  then
+  shape7.left := 55;
+
+  shape8.left := shape8.left + 5;
+  if shape8.left > 68 then
+  shape8.left := 40;
+
+  shape9.left := shape9.left + 25;
+  if shape9.left > 168 then
+  shape9.left := 80;
+
+  shape10.left := shape10.left + 64;
+  if shape10.left > 20  then
+  shape10.left := 55;
+
+   Shape10.Left := Shape10.left - a;
+  shape10.top := shape10.top + b;
+
+  Shape11.Left := Shape11.left - c;
+  shape11.top := shape11.top + d;
+
+  Shape12.Left := Shape12.left - e;
+  shape12.top := shape12.top + f;
+
+  Shape13.Left := Shape13.left - a;
+  shape13.top := shape13.top + b;
+
+  Shape14.Left := Shape14.left - c;
+  shape14.top := shape14.top + d;
+
+  Shape15.Left := Shape15.left - e;
+  shape15.top := shape15.top + f;
+
+  Shape16.Left := Shape16.left - a;
+  shape16.top := shape16.top + b;
+
+  Shape17.Left := Shape17.left - c;
+  shape17.top := shape17.top + d;
+
+  Shape18.Left := Shape18.left - e;
+  shape18.top := shape18.top + f;
+
+  Shape19.Left := Shape19.left - a;
+  shape19.top := shape19.top + b;
+  if shape19.left > 168 then
+  shape19.left := 80;
+
+  Shape20.Left := Shape20.left - c;
+  shape20.top := shape20.top + d;
+
+  Shape21.Left := Shape21.left - e;
+  shape21.top := shape21.top + f;
+
+  Shape22.Left := Shape22.left - a;
+  shape22.top := shape22.top + b;
+
+  Shape23.Left := Shape23.left - c;
+  shape23.top := shape3.top + d;
+
+  Shape24.Left := Shape24.left - e;
+  shape24.top := shape24.top + f;
+
+  Shape25.Left := Shape25.left - g;
+end;
+
+end.
